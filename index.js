@@ -29,5 +29,5 @@ app.listen(3000,()=>
 {
 
 
-    console.log('Samiyal Node Js Helloo World RestApi.....bbbb...');
+    console.log('Samiyal Node Js Helloo World RestApi.');
 })
