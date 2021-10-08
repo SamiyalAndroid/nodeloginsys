@@ -6,7 +6,7 @@ s
 
 var crypto=require('crypto');
 var uuid=require('uuid');
-var expres=require('express');
+var express=require('express');
 var mysql=require('mysql');
 var bodyParser=require('body-parser');
 
@@ -20,7 +20,7 @@ var con=mysql.createConnection(
 );
 
 
-var app=expres();
+var app=express();
 app.use(bodyParser.json);
 app.use(bodyParser.urlencoded({extended:true}));
 
