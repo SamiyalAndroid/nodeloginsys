@@ -19,6 +19,7 @@ var con=mysql.createConnection(
     }
 );
 
+
 var app=express();
 app.use(bodyParser.json);
 app.use(bodyParser.urlencoded({extended:true}));
@@ -28,5 +29,5 @@ app.listen(3000,()=>
 {
 
 
-    console.log('Samiyal Node Js Hello World RestApi');
+    console.log('Samiyal Node Js Hello World RestApi.....');
 })
