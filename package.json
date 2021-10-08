@@ -1,0 +1,17 @@
+{
+  "name": "node_login_example",
+  "version": "1.0.0",
+  "description": "This is First Node js Backend Api Learning ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samiyal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  }
+}
